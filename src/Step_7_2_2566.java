@@ -11,7 +11,7 @@ public class Step_7_2_2566 {
         for (int t = 1; t <= 9; t++) {
             for (int j = 1; j <= 9; j++) {
                 i = sc.nextInt();
-                if (max < i){
+                if (max <    i){
                     loc_max_c = t;
                     loc_max_r = j;
                     max = i;
