@@ -14,7 +14,7 @@ public class Step_7_3_10798 {
         }
         for (int i = 0; i < 15; i++) {
             for (int k = 0; k < 5; k++) {
-                if (s[i][k] != '\0'){
+                if (s[k][i] != '\0'){
                     System.out.print(s[k][i]);
                 }
             }
