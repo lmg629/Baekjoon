@@ -21,7 +21,7 @@ public class Step_7_4_2563 {
         }
         for (int n = 0; n < 100; n++) {
             for (int m = 0; m < 100; m++) {
-                if (drawing_paper[n][m] == true) {
+                if (drawing_paper[n][m]) {
                     area = area + 1;
                 }
             }
